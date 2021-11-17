@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Danny.Flahive\\Training\\EmailExtraction\\EmailExtraction.csproj": {}
+    "C:\\Users\\Danny.Flahive\\Corndel\\EmailExtraction\\EmailExtraction.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Danny.Flahive\\Training\\EmailExtraction\\EmailExtraction.csproj": {
+    "C:\\Users\\Danny.Flahive\\Corndel\\EmailExtraction\\EmailExtraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Danny.Flahive\\Training\\EmailExtraction\\EmailExtraction.csproj",
+        "projectUniqueName": "C:\\Users\\Danny.Flahive\\Corndel\\EmailExtraction\\EmailExtraction.csproj",
         "projectName": "EmailExtraction",
-        "projectPath": "C:\\Users\\Danny.Flahive\\Training\\EmailExtraction\\EmailExtraction.csproj",
+        "projectPath": "C:\\Users\\Danny.Flahive\\Corndel\\EmailExtraction\\EmailExtraction.csproj",
         "packagesPath": "C:\\Users\\Danny.Flahive\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Danny.Flahive\\Training\\EmailExtraction\\obj\\",
+        "outputPath": "C:\\Users\\Danny.Flahive\\Corndel\\EmailExtraction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Danny.Flahive\\AppData\\Roaming\\NuGet\\NuGet.Config",

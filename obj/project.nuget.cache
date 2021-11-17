@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4NeIJ6NwAxMLPcbZ9/mi/54enBWq4iVRt17gvyBQbVes6Mby2ZIVHA4c9QtU765ZYK8Sg4ug3GvnJTRmLTn3aQ==",
+  "dgSpecHash": "KCJRyIBwXTJ+6pu7SvK1Dd8citLTrVir5Y26J+/uMXMi8YBLudl8i7aS38yGBxYqUlfvzsivuKjvcjhCgCt+Cw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Danny.Flahive\\Training\\EmailExtraction\\EmailExtraction.csproj",
+  "projectFilePath": "C:\\Users\\Danny.Flahive\\Corndel\\EmailExtraction\\EmailExtraction.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
