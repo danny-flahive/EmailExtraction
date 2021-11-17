@@ -11,7 +11,7 @@ namespace EmailExtraction
         static void Main(string[] args)
         {
             string text = File.ReadAllText(@"C:\Users\Danny.Flahive\Training\EmailExtraction\input.txt");
-            Regex email = new Regex(@"\s[a-zA-Z0-9_\-\.\'\%\+]+@[a-zA-Z0-9\\-]+.(com|co.uk|org|edu|au|nz|co.nz|net)\s");
+            Regex email = new Regex(@"\s[\w\-\.\'\%\+]+@[\w\\-]+\.(com|co\.uk|org|edu|au|nz|co\.nz|net)\b");
             Dictionary<string, int> domainFrequecies = new Dictionary<string, int>();
             foreach (Match match in email.Matches(text))
             {
@@ -26,6 +26,12 @@ namespace EmailExtraction
             {
                 Console.WriteLine($"Domain {pair.Key} appears {pair.Value} times");
             }
+        }
+
+        public static bool MobileNumberValidation(string mobileNumber)
+        {
+            Regex validMobileNumber = new Regex(@"^(\+44|0)7\d{9}$");
+            return validMobileNumber.IsMatch(mobileNumber);
         }
     }
 }
